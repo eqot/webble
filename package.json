@@ -1,12 +1,11 @@
 {
   "name": "webble",
   "version": "0.1.0",
-  "main": "dist/ble.js",
+  "main": "dist/webble.js",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build src/ble.ts"
+    "build": "parcel build src/webble.ts"
   },
   "devDependencies": {
     "@types/node": "^11.13.8",
